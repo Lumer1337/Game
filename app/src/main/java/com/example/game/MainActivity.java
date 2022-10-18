@@ -28,8 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     View.OnClickListener ExitButton = new View.OnClickListener(){
         @Override
-        public void onClick(View view){
-            System.exit(0);
+        public void onClick(View view){  System.exit(0);
         }
 
     };
