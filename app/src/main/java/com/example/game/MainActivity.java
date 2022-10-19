@@ -1,12 +1,14 @@
 package com.example.game;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import android.widget.Button;
+import android.widget.RelativeLayout;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -24,7 +26,17 @@ public class MainActivity extends AppCompatActivity {
 
         Button buttonexit = (Button) findViewById(R.id.Buttonexit);
         buttonexit.setOnClickListener(this.ExitButton);
+
+
+       /*RelativeLayout ll = (RelativeLayout) findViewById(R.id.Phon);
+        ll.setBackgroundColor(getRelativeLayout());*/
+
     }
+
+
+
+
+
 
     View.OnClickListener ExitButton = new View.OnClickListener(){
         @Override

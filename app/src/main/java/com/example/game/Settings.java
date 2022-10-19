@@ -7,9 +7,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 
 public class Settings extends AppCompatActivity {
+    public RelativeLayout relativeLayout;
+
+    public int getRelativeLayout() {
+        return relativeLayout.getSolidColor();
+    }
+
+    public void setRelativeLayout(RelativeLayout relativeLayout) {
+        this.relativeLayout = relativeLayout;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,8 +28,10 @@ public class Settings extends AppCompatActivity {
         buttonset.setOnClickListener(this.ReturnButton);
 
 
+
+
         Button button1, button2;
-        final RelativeLayout relativeLayout;
+
         button1 = findViewById(R.id.btVar1);
         button2 = findViewById(R.id.btVar2);
         relativeLayout = findViewById(R.id.rlVar1);
@@ -42,6 +52,10 @@ public class Settings extends AppCompatActivity {
             }
         });
     }
+
+
+
+
     View.OnClickListener ReturnButton = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
