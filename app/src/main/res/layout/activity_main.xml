@@ -20,38 +20,43 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <Button
         android:id="@+id/ButtonStart"
         android:layout_width="150dp"
         android:layout_height="55dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="292dp"
+        android:background="@drawable/style_btn_stroke_black95_press_white"
         android:text="@string/Gamestart"
+        android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <Button
         android:id="@+id/ButtonSetings"
         android:layout_width="150dp"
         android:layout_height="55dp"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="364dp"
+        android:background="@drawable/style_btn_stroke_black95_press_white"
         android:text="@string/ButtonSettings"
+        android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <Button
         android:id="@+id/Buttonexit"
         android:layout_width="150dp"
         android:layout_height="55dp"
-        android:layout_marginTop="420dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/style_btn_stroke_black95_press_white"
         android:text="@string/ButtonExit"
+        android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
